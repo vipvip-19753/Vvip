@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 from telegram.error import TelegramError
 
 # Bot token and allowed admin user
-TELEGRAM_BOT_TOKEN = '7868284104:AAFfKh3qZL7-i-ufJaFOj2ZDrtDRvsV92Ig'
+TELEGRAM_BOT_TOKEN = '7216203077:AAFZykAxwIDMWdDB8c1TOQ81uLZqZWbEA6Y'
 ALLOWED_USER_ID = 1441704343  # Admin user ID
 allowed_users = {ALLOWED_USER_ID}  # Set of allowed users, initially only the admin is allowed
 active_users = set()  # Track users who have interacted with the bot
